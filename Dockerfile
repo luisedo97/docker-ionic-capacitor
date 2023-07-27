@@ -1,6 +1,6 @@
 FROM ubuntu:22.04
 
-LABEL MAINTAINER="Robin Genz <mail@robingenz.dev>"
+LABEL MAINTAINER="Luis Araujo <luiseduardoab97@gmail.com>"
 
 ARG JAVA_VERSION=11
 ARG NODEJS_VERSION=16
@@ -13,9 +13,9 @@ ARG ANDROID_PLATFORMS_VERSION=32
 # See https://gradle.org/releases/
 ARG GRADLE_VERSION=7.4.2
 # See https://www.npmjs.com/package/@ionic/cli
-ARG IONIC_VERSION=6.20.8
+ARG IONIC_VERSION=7.1.1
 # See https://www.npmjs.com/package/@capacitor/cli
-ARG CAPACITOR_VERSION=4.6.3
+ARG CAPACITOR_VERSION=3.4.1
 
 ENV DEBIAN_FRONTEND=noninteractive
 ENV LANG=en_US.UTF-8
