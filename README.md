@@ -7,7 +7,7 @@
 <!-- ### Pull image
 
 Pull from Docker Registry:  
-`docker pull robingenz/ionic-capacitor` -->
+`docker pull luisedo97/ionic-capacitor` -->
 
 ### Build image
 
@@ -31,9 +31,9 @@ Available build arguments:
 
 Run the docker image:  
 ```
-docker run -it robingenz/ionic-capacitor bash
+docker run -it luisedo97/ionic-capacitor bash
 ```
 
 ## Questions / Issues
 
-If you got any questions or problems using the image, please visit my [GitHub Repository](https://github.com/robingenz/docker-ionic-capacitor) and write an issue.
+If you got any questions or problems using the image, please visit my [GitHub Repository](https://github.com/luisedo97/docker-ionic-capacitor) and write an issue.
